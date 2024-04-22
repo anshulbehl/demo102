@@ -1,0 +1,20 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo1.cloudtest
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: ganeshrn/demo102
+  links:
+    - url: https://devspaces.apps.y1a9e1j9r7y1i8l.cbm5.p1.openshiftapps.com/#https://github.com/#https://github.com/ganeshrn/demo102
+      title: OpenShift Dev Spaces
+      icon: web
+spec:
+  type: collection-project
+  system: s
+  lifecycle: production
+  owner: t
